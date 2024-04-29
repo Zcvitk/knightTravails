@@ -21,7 +21,7 @@ function knightMoves(start, end) {
     
     // check if the knight has reached the end position
     if (currentPosition[0] === end[0] && currentPosition[1] === end[1]) {
-      return currentPath; // Return the path if end position is reached
+      return currentPath; // return the path if end position is reached
     }
     
     // loop through all possible moves for the knight
